@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/auth-user-service.iml" filepath="$PROJECT_DIR$/auth-user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/integration/auth-user-service-integration.iml" filepath="$PROJECT_DIR$/integration/auth-user-service-integration.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/auth-user-service-service.iml" filepath="$PROJECT_DIR$/service/auth-user-service-service.iml" />
