@@ -3,11 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api" charset="UTF-8" />
-<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$/app" charset="UTF-8" />
-=======
-    <file url="file://$PROJECT_DIR$/eapp" charset="UTF-8" />
->>>>>>> 7c823770de5a4ee6fe4e36a2f45657cd85c14bae
     <file url="file://$PROJECT_DIR$/integration" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service" charset="UTF-8" />
   </component>
