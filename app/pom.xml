@@ -2,38 +2,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>auth-user-service</artifactId>
+        <groupId>dev.ericksuarez</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>dev.ericksuarez</groupId>
-    <artifactId>auth-user-service</artifactId>
-    <packaging>pom</packaging>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>AuthUserService</name>
-
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.0.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
-
-    <properties>
-        <java.version>1.8</java.version>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring-boot.version>2.1.0.RELEASE</spring-boot.version>
-        <jsonwebtoken.version>0.9.1</jsonwebtoken.version>
-    </properties>
-
-    <modules>
-        <module>service</module>
-        <module>integration</module>
-        <module>api</module>
-        <module>app</module>
-    </modules>
+    <artifactId>auth-user-service-app</artifactId>
 
     <dependencies>
+
+        <dependency>
+            <groupId>dev.ericksuarez</groupId>
+            <artifactId>auth-user-service-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
@@ -59,6 +43,4 @@
         </dependency>
 
     </dependencies>
-
-
 </project>
