@@ -1,0 +1,5 @@
+server:
+  port: 8100
+app:
+  name: myApp
+  description: ${app.name} is a Spring Boot application
