@@ -10,6 +10,6 @@ public class ServiceFake {
     private String app;
 
     public String getEnv() {
-        return "dev " + app;
+        return "dev test" + app;
     }
 }
