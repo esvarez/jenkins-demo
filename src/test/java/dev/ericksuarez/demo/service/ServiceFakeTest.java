@@ -20,7 +20,7 @@ public class ServiceFakeTest {
 
     @Test
     public void foo() {
-        assertEquals(serviceFake.getEnv(), "dev test null");
+        assertEquals(serviceFake.getEnv(), "dev test x null");
     }
 
     @Test
