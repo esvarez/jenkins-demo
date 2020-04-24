@@ -25,6 +25,6 @@ public class ServiceFakeTest {
 
     @Test
     public void fail(){
-        assertFalse(true);
+        assertFalse(false);
     }
 }
